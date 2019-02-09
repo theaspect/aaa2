@@ -4,8 +4,6 @@ fun main(args: Array<String>) {
     if (args.isEmpty()) {
         println("no args")
     } else {
-        for (a in args) {
-            println(a)
-        }
+        args.forEach { println(it) }
     }
 }
